@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hot and Spicy</title>
+</head>
+
+<body>
+
+    <!------navbar--------->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#heroSlider">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#menu">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#reservation">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#faq">FAQ</a>
+                    </li>
+
+
+                </ul>
+                <a href="#" class="btn">Order Online</a>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO SpicyMeal</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Char-grilled and flavor-filled</h1>
+                            <a href="#reservation" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO SpicyMeal</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-3">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO SpicyMeal</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section id="about">
+        <div class="container ">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5 abt">
+                    <img src="./images/delicious-food-table.jpg" alt="" class="aboutimg">
+                </div>
+                <div class="col-lg-5">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Welcome to the Spicy Meal Restaurant, where culinary traditions meet modern dining. Our passion
+                        for food drives us to offer an exceptional dining experience, showcasing the rich and diverse
+                        flavors of Indian cuisine. Each dish on our menu is crafted with the finest ingredients,
+                        ensuring every bite is a celebration of taste.</p>
+                    <p>Our dedicated team is committed to providing outstanding service, making sure your dining
+                        experience is memorable from start to finish.Whether you're a connoisseur of Indian cuisine or
+                        trying it for the first time, we promise a dining experience that will exceed your expectations.
+                    </p>
+                    <a href="#menu" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>Explore our diverse menu, featuring a wide array of traditional Indian dishes crafted with
+                        authentic spices and fresh ingredients.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6  menu-items-container">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-1.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Creamy Mushroom With Naan</a></h5>
+                                    <p class="small">creamy mushroom curry paired perfectly with soft, buttery naan
+                                        comforting cuisine</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-2.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Crispy Stuffed Dosa</a></h5>
+                                    <p class="small">crispy, golden crepe filled with a flavorful mix of spiced
+                                        potatoes, onions, and herbs. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-3.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Fudgy Naan</a></h5>
+                                    <p class="small">Experience our freshly baked naan, soft and fluffy with a
+                                        golden-brown finish. This traditional Indian bread,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-4.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Chewy Bread with Berrys</a></h5>
+                                    <p class="small">Enjoy our toasted bread topped with a medley of fresh berries,
+                                        offering a delightful blend of sweet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-2.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">South Indian Thali</a></h5>
+                                    <p class="small">Enjoy our indian thali like sambar, rasam, poriyal, and creamy
+                                        curd, rice and chapathi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-5.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Arromatic Fish curry</a></h5>
+                                    <p class="small">Savor our fish curry, where tender fish fillets are simmered in a
+                                        rich, spiced coconut gravy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-3.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Flavorful Briyani</a></h5>
+                                    <p class="small">Relish our aromatic biryani, featuring perfectly cooked basmati
+                                        rice layered with tender meat or vegetables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/pasta.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Creamy and Spicy Noodles</a></h5>
+                                    <p class="small">Enjoy our savory noodles, stir-fried to perfection with a mix of
+                                        fresh vegetables, tender meat, and aromatic spices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-6.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Juciest Tandoori</a></h5>
+                                    <p class="small">Experience our tandoori delight, where marinated meat or vegetables
+                                        are cooked</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/img1.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Flavourfull Kebab</a></h5>
+                                    <p class="small">Savor our succulent kebabs, made from marinated meat or vegetables,
+                                        grilled to perfection.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food8.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Combo Briyani</a></h5>
+                                    <p class="small"> a generous serving of aromatic basmati rice layered with tender
+                                        meat or vegetables. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food10.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Soft Chapathi</a></h5>
+                                    <p class="small">Enjoy our soft and fluffy chapathi, freshly made from whole wheat
+                                        flour and cooked to a golden-brown perfection. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-1.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Creamy mushroom with Naan</a></h5>
+                                    <p class="small">creamy mushroom curry paired perfectly with soft, buttery naan
+                                        comforting cuisine</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-2.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Crispy Stuffed Dosa</a></h5>
+                                    <p class="small">crispy, golden crepe filled with a flavorful mix of spiced
+                                        potatoes, onions, and herbs. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-3.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Fudgy Naan</a></h5>
+                                    <p class="small">Experience our freshly baked naan, soft and fluffy with a
+                                        golden-brown finish. This traditional Indian bread,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/break-4.jpg" alt="" class="menuimg w-100">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Chewy Bread with Berrys</a></h5>
+                                    <p class="small">Enjoy our toasted bread topped with a medley of fresh berries,
+                                        offering a delightful blend of sweet</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-1.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">South Indian Thali</a></h5>
+                                    <p class="small">Enjoy our indian thali like sambar, rasam, poriyal, and creamy
+                                        curd, rice and chapathi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-5.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Arromatic Fish curry</a></h5>
+                                    <p class="small">Savor our fish curry, where tender fish fillets are simmered in a
+                                        rich, spiced coconut gravy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-3.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Flavorful Briyani</a></h5>
+                                    <p class="small">Relish our aromatic biryani, featuring perfectly cooked basmati
+                                        rice layered with tender meat or vegetables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/pasta.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Creamy and Spicy Noodles</a></h5>
+                                    <p class="small">Enjoy our savory noodles, stir-fried to perfection with a mix of
+                                        fresh vegetables, tender meat, and aromatic spices.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food-6.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Juciest Tandoori</a></h5>
+                                    <p class="small">Experience our tandoori delight, where marinated meat or vegetables
+                                        are cooked</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/img1.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Flavourfull Kebab</a></h5>
+                                    <p class="small">Savor our succulent kebabs, made from marinated meat or vegetables,
+                                        grilled to perfection.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food8.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Combo Briyani</a></h5>
+                                    <p class="small"> a generous serving of aromatic basmati rice layered with tender
+                                        meat or vegetables. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow">
+                                <img src="./images/food10.jpg" alt="" class="menuimg">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated(5.4)</span>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Soft Chapathi</a></h5>
+                                    <p class="small">Enjoy our soft and fluffy chapathi, freshly made from whole wheat
+                                        flour and cooked to a golden-brown perfection. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Reservation -->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-light">
+                    <h1>Book Your Table</h1>
+                    <p>Reserve your table at the spicy meal restaurant for an unforgettable dining experience. Whether
+                        you're planning a family gathering, a romantic dinner, or a special celebration</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Meesage"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand text-light">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- Blog Post -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Blog Posts</h1>
+                    <p>Discover our blog for the latest updates, recipes, and insights into the world of Indian cuisine. Stay connected with the SpicyMeal restaurant as we share culinary tips.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow">
+                        <img src="./images/food11.jpg" alt="" class="blogimg">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2021</p>
+                            <h4><a href="#">How to make Delicious South Indian food
+                                </a></h4>
+                            <p>Consectetur adipisicing elit. Consequatur, architecto quisquam. Cumque!</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow">
+                        <img src="./images/food12.jpg" alt="" class="blogimg">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2021</p>
+                            <h4><a href="#">How to make delicious and Flavourfull Briyani
+                                </a></h4>
+                            <p>Consectetur adipisicing elit. Consequatur, architecto quisquam. Cumque!</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow">
+                        <img src="./images/food13.jpg" alt="" class="blogimg">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2021</p>
+                            <h4><a href="#">How to make delicious mandi Rice with Chicken
+                                </a></h4>
+                            <p>Consectetur adipisicing elit. Consequatur, architecto quisquam. Cumque!</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow">
+                        <img src="./images/food14.jpg" alt="" class="blogimg">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2021</p>
+                            <h4><a href="#">How to make delicious and soft naan
+                                </a></h4>
+                            <p>Consectetur adipisicing elit. Consequatur, architecto quisquam. Cumque!</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="faq" class="question">
+        <div class="ques">
+            <a>
+                <h1>Frequently Asked Questions</h1>
+            </a>
+            <p>Welcome to our FAQ section! Here, you'll find answers to some common questions about our restaurant.
+
+                <p>
+        </div>
+        <div class="accordion w-75 shadow " id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Do you take reservations?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Yes, we accept reservations. You can make a reservation online through our booking system or by
+                        calling us at (+91)566 677 8976.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion text-center" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapsetwo">
+                            Can I customize my order?                     
+                       </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body ">
+                            Absolutely! Please let us know your preferences and any dietary restrictions, and we will do our best to accommodate your request for a personalized dining experience.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can you accommodate dietary restrictions (gluten-free, allergies, etc.)?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Absolutely! We strive to accommodate all dietary needs. Please inform your server about any
+                            allergies or dietary restrictions when placing your order.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Can I host a private event or party at your restaurant?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, we have options for private dining or event spaces available. Please contact us for
+                            more information and to discuss your event requirements.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="bg-cover">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit architecto unde
+                            magnam.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 class="text-white mb-4">CONTACT</h6>
+                        <p class="mb-1">Ph.No:(+91)566 677 8976</p>
+                        <p class="mb-1">Email:thespicymeal@gmail.com</p>
+                        <p class="mb-0">Address:No:34,Velachery main road,chennai-600100</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white mb-4">OPENING HOURS</h6>
+                        <p class="mb-1">Monday-Friday : 08:00 - 23:00</p>
+                        <p>saturday-Sunday : 09:00 - 22:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row gy-3 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyrights all rights reserved</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar-nav .nav-link::before{
+  content: "";
+  width:0%;
+  height:3px;
+  position: absolute;
+  bottom:0;
+  left:0;
+  background-color: #F58d17 !important;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.navbar-nav .nav-link::after{
+  content: "";
+  width:0%;
+  height:3px;
+  position: absolute;
+  bottom:0;
+  right:0;
+  background-color: #060606 !important;
+  transition: all 0.5s ease-in-out;
+
+}
+.navbar-nav .nav-link:hover::before ,
+.navbar-nav .nav-link:hover::after{
+  width:50%;
+  
+}
+.question{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+h1{
+  color: #F58d17 !important;
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
+.nav-item{
+  position: relative;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color:gray;
+
+}
+.accordion-button:not(.collapsed){
+  color:#060606 !important;
+  background-color: white !important;
+}
+.accordion-body{
+  background-color: rgba(252,211,163,0.3) !important;
+  
+}
+.nav-item button{
+  outline: none;
+}
+.menu-item{
+  height:470px;
+  object-fit: cover;
+  border: none;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:900px)   {
+  .menu-item{
+      border: none;
+  }
+}
+
+
+.menu-item img{
+  width:100%;
+}
+
+.ques{
+ text-align: center;
+ padding-bottom: 50px;
+}
+.ques p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+footer{
+  margin-top:150px;
+}
+.blog-post img {
+  width: 40%;
+  object-fit: cover;
+}
+.blog-post-content a{
+  text-decoration: none;
+  color:#F58d17;
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+      flex-direction: column;
+  }
+  .blog-post img {
+      width: 100%;
+  }
+}
+.navbar-nav a:hover{
+  color:#F58d17;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #F58d17 !important;
+  color:#ffffff !important;
+  border-radius: 30px;
+}
+.nav-link{
+  color:#F58d17 !important;
+}
+.logo{
+  width:80px;
+  height:80px;
+}
+.btn{
+  background-color:#F58d17 !important;
+  color:white !important;
+}
+.menu-card{
+  min-height:600px;
+}
+.menu-item-content a{
+   color:#F58d17;
+   text-decoration: none;
+}
+.menu-item-content p{
+  color: #1e1e1e;
+}
+.navbar-nav  {
+  display: flex !important;
+  gap:40px !important;
+}
+
+
+
+.menu-item:hover{
+  transition: all 0.3s ease-in;
+  transform: scale(98%);
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Slider */
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/navimg.jpg);
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img-2.jpg);
+}
+.slide-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img-3.jpg);
+
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0,0,0,0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.aboutimg{
+  width:90%;
+  height:500px;
+}
+
+#about .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #F58d17;
+}
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+.menu-1{
+  width:290px;
+  height:200px;
+}
+
+.menuimg{
+  width:305px;
+  height:250px;
+}
+.stars{
+  color:#F58d17;
+}
+
+#reservation{
+  background-image: url(./images/bgimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/cover3.jpg);
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+
+footer p,
+footer a{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+footer img {
+  max-width: 175px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.accordion-body {
+  text-align: left !important;
+  /* padding: 0 !important; */
+}
